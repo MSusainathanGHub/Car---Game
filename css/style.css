@@ -75,12 +75,12 @@ img{
   left: 1000px;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 500px){
   body{
     background-color: grey;
   }
   img{
-    height: 120px;
+    height: 90px;
   }
   .car{
     position: absolute;
@@ -89,7 +89,7 @@ img{
   }
   .container{
     height: 80vh;
-    width: 90vw;
+    width: 92vw;
     background-size: cover;
     position: relative;
     box-shadow: 1px 2px 60px rgba(255, 0, 0, 0.5);
@@ -105,8 +105,8 @@ img{
     height: 180px;
     width: 180px;
     font-size: 12px;
-    top: 80px;
-    left: 68%;
+    top: 60px;
+    left: 50%;
   }
   .buttonClass{
     font-size:10px;
